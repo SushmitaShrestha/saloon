@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="4dp"
+        android:text="Recent services History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textSize="25sp"
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:text="1. Bushra Beauty Salon\nTime : 02:00 pm \nDate : 19/05/20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:textSize="25sp"
+        android:id="@+id/textView6"
+        android:layout_marginTop="100dp"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:text="2. Bushra Beauty Salon\nTime : 05:00 pm \nDate : 10/05/20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:textSize="25sp"
+        android:id="@+id/textView7"
+        android:layout_marginTop="200dp"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:text="3. Sugar Dolls Salon\nTime : 01:00 pm \nDate : 12/04/20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:textSize="25sp"
+        android:id="@+id/textView8"
+        android:layout_marginTop="300dp"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:text="4. Blow Salon\nTime : 06:00 pm \nDate : 21/03/20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

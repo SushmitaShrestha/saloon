@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalonParlour1">
+
+    <TextView
+        android:onClick="showDialogOnclick"
+        android:padding="5dp"
+        android:drawableEnd="@drawable/calendar_logo"
+        android:id="@+id/datepicker"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="Select your date"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/pay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datepicker">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Facial                                            €50 "
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Skin care                                      €15"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Make - Ups                                   €25"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Nail Art                                         €30"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Re-Bonding                                  €140"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Hair Extension                            €200"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Hair smoothing                          €80"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Hair coloring                               €90"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Scalp Purification treatment   €100"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Eye make up                                €35"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Bridal Make-up                            €500"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Indonestian Spa                         €100"
+                android:textSize="20sp" />
+
+
+            <CheckBox
+                android:id="@+id/chk13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:buttonTint="#102027"
+                android:layoutDirection="rtl"
+                android:text="Massage                                      €200"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:background="@drawable/shape"
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="pay"
+        android:text="Pay"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/timePicker"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:drawableEnd="@drawable/picktime"
+        android:gravity="center"
+        android:text="select your time"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/datepicker"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
